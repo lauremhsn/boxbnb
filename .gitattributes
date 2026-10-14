@@ -1,0 +1,7 @@
+# Let git handle line endings for text files
+* text=auto
+
+# Never touch line endings in binary files (a PDF's internal byte offsets break if \n becomes \r\n)
+*.pdf binary
+*.png binary
+*.jpg binary

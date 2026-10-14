@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# gradio
+.gradio/
+flagged/
+
+# logs written by the tools (keep sample logs out unless you want them in the repo)
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
