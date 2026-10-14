@@ -14,8 +14,9 @@ venv/
 .gradio/
 flagged/
 
-# logs written by the tools (keep sample logs out unless you want them in the repo)
-*.log
+  # logs written by the tools
+  *.log
+  logs/
 
 # OS junk
 .DS_Store
