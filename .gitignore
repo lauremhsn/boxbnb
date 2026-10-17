@@ -14,9 +14,9 @@ venv/
 .gradio/
 flagged/
 
-  # logs written by the tools
-  *.log
-  logs/
+# logs written by the tools
+*.log
+logs/
 
 # OS junk
 .DS_Store
