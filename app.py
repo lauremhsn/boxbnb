@@ -998,4 +998,4 @@ with gr.Blocks(title="Boxbnb Customer Support") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(theme=THEME, css=CSS, head=HEAD, footer_links=[])
+    demo.launch(theme=THEME, css=CSS, head=HEAD, footer_links=[], favicon_path="assets/paw.svg")
