@@ -30,7 +30,7 @@ He answers questions from the company documents, takes bookings from cats, and l
 - **Memory:** the chat history plus a per-chat profile (name, email, cat or human).
 - **Bonus, reflection:** each draft is checked against a checklist before it's sent. If problems are found,
   Bob rewrites it, and the result is logged to `logs/reflections.jsonl` and shown in the chat.
-- **Bonus, deployment:** this repo runs as a Hugging Face Space (`app.py`).
+- **Bonus, deployment:** live at https://huggingface.co/spaces/lauremhsn/boxbnb (`app.py`).
 
 `business_agent.ipynb` builds everything step by step with outputs. `app.py` is the same agent as a standalone app.
 

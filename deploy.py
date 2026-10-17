@@ -21,7 +21,7 @@ if not key:
     sys.exit("GOOGLE_API_KEY not found in .env")
 
 api = HfApi()
-api.create_repo(repo_id, repo_type="space", space_sdk="gradio", exist_ok=True)
+api.create_repo(repo_id, repo_type="space", space_sdk="gradio", space_hardware="zero-a10g", exist_ok=True)
 api.add_space_secret(repo_id, "GOOGLE_API_KEY", key)
 api.upload_folder(repo_id=repo_id, repo_type="space", folder_path=".", allow_patterns=FILES,
                   commit_message="Deploy Boxbnb")

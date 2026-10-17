@@ -14,6 +14,15 @@ from google import genai
 from google.genai import errors, types
 from pypdf import PdfReader
 
+try:
+    import spaces
+
+    @spaces.GPU
+    def _zerogpu_placeholder():
+        pass
+except ImportError:
+    pass
+
 load_dotenv()
 
 API_KEY = os.getenv("GOOGLE_API_KEY")
