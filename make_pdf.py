@@ -67,7 +67,7 @@ s += [P("Who We Are", h1),
 
 s += [P("Our Story", h1),
       P("Boxbnb was founded on a sunny third-floor windowsill by three cats. Our founder, Princess "
-        "Consuela Bananhammock (Banana for short), had spent four days claiming a perfect delivery box when her human recycled it "
+        "Consuela Bananahammock (Banana for short), had spent four days claiming a perfect delivery box when her human recycled it "
         "without notice. She did not get angry. She got organized."),
       P("Within a week she had recruited Ashe Burrito, a specialist in strategic inconvenience, and "
         "Ivy-BeanBun, who had personally sat in more boxes than any cat on record. Together they built a "
@@ -163,7 +163,7 @@ s.append(PageBreak())
 # ---------- Team ----------
 s += [P("Our Team", h1)]
 team = [
-    ("Princess Consuela Bananhammock", "Founder &amp; CEO",
+    ("Princess Consuela Bananahammock", "Founder &amp; CEO",
      "A Persian who sleeps 20 hours a day and calls it strategic vision. Founded Boxbnb after a box she had "
      "claimed was recycled without warning. Has not attended a meeting since 2023 but is copied on all of them."),
     ("Ashe Burrito", "Head of Inconvenience Strategy",
